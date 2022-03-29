@@ -17,14 +17,14 @@ We are going to use 3 datasets, Metabolomics dataset, metadata and drug response
 1. We are going to use Jyputer Notebooks are our workstation - can be downloaded from Anaconda (https://www.anaconda.com/products/distribution)
 2. The following packages are required for the machine learning models:
   1. Numpy
-     conda install -c anaconda numpy
+     
   2. Pandas
-     conda install -c anaconda pandas
+     
   3. Scikit-learn
-     conda install -c anaconda scikit-learn
+     
   4. Matplotlib
-     conda install -c conda-forge matplotlib
+     
   5. Seaborn
-     conda install -c anaconda seaborn
      
 3. These packages are already installed via Anaconda otherwise the attached codes can be run in order to install the packages.
+
