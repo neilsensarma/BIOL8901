@@ -12,6 +12,8 @@ We are going to use 3 datasets, Metabolomics dataset, metadata and drug response
 2. Metadata - contains metadata of the cell lines in the metabolomics dataset and includes information like the age, sex and lineage of the cancer.
 3. Drug Response Data - contains the drug response values of the cancer cell lines.
 
+We are going to be working with 6 clinically approved drugs: CISPLATIN, GEMCITABINE, DOCETAXEL, DOXORUBICIN, GEMFITNIB, PACLITAXEL. So we are going to be creating subsets of each individual drug. These subsets will contain the cancer cell lines, their metabolite profiles and the drug response data for each of these drugs. 
+
 ### Setup
 
 1. We are going to use Jyputer Notebooks are our workstation - can be downloaded from Anaconda (https://www.anaconda.com/products/distribution)
