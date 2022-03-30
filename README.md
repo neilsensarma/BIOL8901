@@ -27,3 +27,21 @@ conda install -c anaconda scikit-learn
 conda install -c anaconda seaborn
 conda install -c conda-forge matplotlib
 ```
+
+4. We are all set.
+
+### Workflow
+
+1. Merge the three datasets based on the Cell Line IDs.
+2. Create a subset dataset for a particular drug.
+3. Drop the cell line and drug response data records which belong to GDSC2 phase.
+4. Normalize the dataset using Standard Normalization technique.
+5. Calculate the IC50_PUBLISHED mean value
+6. Any drug response greater than the mean value is labelled as "Responsive" and anything less is labelled as "Non-Responsive"
+7. Dimension reduction using Correlation
+8. Feature selection using Recursive Feature Elimination using Cross Validation, base estimator being Random Forest and the scoring metric is Accuracy across 5 Stratified K Folds.
+9. Extract the important features
+10. Train and test the model using RandomForestClassifier, Support Vector Machine and AdaBoost
+11. Use classification_report in order to understand the performance of the models.
+
+
